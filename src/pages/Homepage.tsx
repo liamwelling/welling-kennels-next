@@ -12,8 +12,8 @@ const Homepage = () => {
     >
       <img src="./dog1.jpg" alt="dog1" className={`w-full h-full lg:h-auto object-cover fixed -z-10  transition-brightness ease-in duration-700 ${visable? 'brightness-50' : 'brightness-100'}`}/>
       <Navbar />
-      <div className="mt-20 md:mt-20 lg:mt-24 h-96 mb-60 lg:mb-64">
-        {/* <img src='./headerPhoto.jpg' alt='dog1' className='w-full object-cover object-center lg:object-top  ' /> */}
+      <div className="mt-20 md:mt-20 lg:mt-24 h-96 mb-60 lg:mb-64 flex ">
+        <div className="pt-14 ml-auto mr-auto text-3xl">English Springer Spannels</div>
       </div>
       <div className="">
         {/* <div className='ml-auto mr-auto text-3xl '>English Springer Spannels</div> */}

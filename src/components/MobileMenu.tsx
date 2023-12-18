@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react'
 import everRentLogo from '../assets/everrent_logo.svg'
 import { useMediaQuery } from 'react-responsive'
 import CloseIcon from '@mui/icons-material/Close';
+import Link from 'next/link'
 
 
 function MobileMenu({closeModal}:any) {
@@ -31,11 +32,11 @@ function MobileMenu({closeModal}:any) {
          </div>
       </div>
  
-    <div className={`mx-auto my-[20vh] text-center transition-opacity ease-in duration-700 ${opened? 'opacity-100' : 'opacity-0'}`}>
+    <div className={`flex flex-col mx-auto my-[20vh] text-center transition-opacity ease-in duration-700 ${opened? 'opacity-100' : 'opacity-0'}`}>
 
-    <div className={`text-4xl font-calibreReg `}>Puppies</div>
-    <div className={`text-4xl font-calibreReg `}>Contact</div>
-    <div className={`text-4xl font-calibreReg `}>Photos</div>
+    <Link href="/puppies" className={`text-4xl font-calibreReg `}>Puppies</Link>
+    <Link href="/contact" className={`text-4xl font-calibreReg `}>Contact</Link>
+    <Link href="/contact" className={`text-4xl font-calibreReg `}>Photos</Link>
 
     {/* <Link to='/about' component={RouterLink} >
       <div className={`text-4xl font-calibreReg `}>ABOUT</div>
