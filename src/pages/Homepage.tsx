@@ -25,20 +25,17 @@ const Homepage = () => {
         onLeave={() => setVisable(false)}
         bottomOffset={100}
       />
-            <div className="text-2xl font-bold">About</div>
+            <div className="text-2xl font-bold">Hi, I'm Mary from Bean Sidhe Springeres</div>
             <div className="text-xl">
-              {" "}
-              As an amateur handler, Bob Lightfoot trains his own field-bred
-              English Springer Spaniels and competes in field trials and hunt
-              tests. Our dogs have also trained with Mike Wallace of Salmy Acres
-              Kennel and Rocco Iasparra. ​We breed dogs who make excellent
-              competitors in the field, hunting companions and pets. The parents
-              are chosen for their dispositions and health of the lines. We're
-              located in southern Connecticut. ​For more information, send Bob
-              an email or call (203) 393-9363.
+        I'am the breader behind Bean Sidhe Springers located in Salt Point, NY. 
+        I produce pups that will continue to excel in their chosen field,
+        wheather that be hunting, performances, or as an active companion. 
             </div>
           </div>
           {/* <div className="row-span-2 col-span-2 border">03</div> */}
+          <div className="bg-white h-96 w-full">
+
+          </div>
         </div>
       </div>
     </div>

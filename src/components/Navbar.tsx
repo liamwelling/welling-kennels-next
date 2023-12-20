@@ -28,10 +28,10 @@ const [mobile, setMobile] = React.useState<boolean | null>(null)
         <div className='flex flex-col'>
         <Link href='/' >
       <div className="text-lime-900 z-10 max-w-5xl w-full items-center justify-between font-mono text-xl lg:text-5xl lg:flex pb-3">
-    Welling Kennels
+    Bean Sidhe Springers
     </div>
     </Link>
-    {/* <div>English Springer Spannels</div> */}
+    <div>English Springer Spannels</div>
     </div>
   
       </div>
