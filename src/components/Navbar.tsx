@@ -23,7 +23,7 @@ const [mobile, setMobile] = React.useState<boolean | null>(null)
   ,[isMobile]) 
 
   return (
-    <div className=' w-full flex flex-row p-6 text-black bg-slate-100 fixed items-center top-0'>
+    <div className=' w-full flex flex-row p-6 text-black bg-slate-100 fixed items-center top-0 '>
       <div>
         <div className='flex flex-col'>
         <Link href='/' >
@@ -44,6 +44,7 @@ const [mobile, setMobile] = React.useState<boolean | null>(null)
 
     <Link className="transition-colors duration-300  hover:text-gray-500" href="/puppies">PUPPIES</Link>
     <Link className="transition-colors duration-300  hover:text-gray-500" href="/contact">CONTACT</Link>
+    <Link className="transition-colors duration-300  hover:text-gray-500" href="/about">ABOUT</Link>
 
 
     </div>
