@@ -17,9 +17,7 @@ function MobileMenu({closeModal}:any) {
     <div className='w-[100vw] h-screen fixed bg-white text-black top-0 bottom-0 left-0 right-0 overflow-hidden '>
    
     <div className='text-black flex flex-row'>
-       {/* <Link to='/' component={RouterLink} >
-        <img src={everRentLogo} className='w-36 ml-10 pt-8 '/>
-        </Link> */}
+     
         <div className='ml-auto pt-7 pr-9'>
         {/* <CloseIcon      id="basic-button"
         //  aria-controls={open ? 'basic-menu' : undefined}
@@ -31,12 +29,15 @@ function MobileMenu({closeModal}:any) {
          style={{cursor: 'pointer' }}>X</div>
          </div>
       </div>
- 
+      <Link href='/'>
+        <div className='flex text-3xl ml-32 font-bold'>    Bean Sidhe Springers
+</div>
+        </Link>
     <div className={`flex flex-col mx-auto my-[20vh] text-center transition-opacity ease-in duration-700 ${opened? 'opacity-100' : 'opacity-0'}`}>
 
     <Link href="/puppies" className={`text-4xl font-calibreReg `}>Puppies</Link>
-    <Link href="/contact" className={`text-4xl font-calibreReg `}>Contact</Link>
-    <Link href="/contact" className={`text-4xl font-calibreReg `}>Photos</Link>
+    <Link href="/about" className={`text-4xl font-calibreReg `}>About</Link>
+    {/* <Link href="/contact" className={`text-4xl font-calibreReg `}>Photos</Link> */}
 
     {/* <Link to='/about' component={RouterLink} >
       <div className={`text-4xl font-calibreReg `}>ABOUT</div>

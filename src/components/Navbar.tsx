@@ -43,7 +43,7 @@ const [mobile, setMobile] = React.useState<boolean | null>(null)
     <div className='ml-auto flex flex-row gap-5'>
 
     <Link className="transition-colors duration-300  hover:text-gray-500" href="/puppies">PUPPIES</Link>
-    <Link className="transition-colors duration-300  hover:text-gray-500" href="/contact">CONTACT</Link>
+    {/* <Link className="transition-colors duration-300  hover:text-gray-500" href="/contact">CONTACT</Link> */}
     <Link className="transition-colors duration-300  hover:text-gray-500" href="/about">ABOUT</Link>
 
 
