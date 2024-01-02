@@ -42,7 +42,7 @@ const Homepage = () => {
       />
       <Navbar />
       <div 
-      className="mt-20 md:mt-20 lg:mt-24 h-[90vh] mb-60 lg:mb-64 flex ">
+      className="mt-20 md:mt-20 lg:mt-24 h-[50vh] mb-60 lg:mb-64 flex ">
         {/* <div className="pt-14 ml-auto mr-auto text-3xl">English Springer Spannels</div> */}
       </div>
       <div className="">
@@ -54,10 +54,10 @@ const Homepage = () => {
               onLeave={() => setVisable(false)}
               bottomOffset={100}
             />
-            <div className="text-2xl font-bold">
+            <div className="text-4xl mb-10 w-2/3">
               Hi, I'm Mary from Bean Sidhe Springeres
             </div>
-            <div className="text-xl">
+            <div className="text-3xl w-3/4">
               I'm the breader behind Bean Sidhe Springers located in Salt Point,
               NY. I produce pups that will continue to excel in their chosen
               field, wheather that be hunting, performances, or as an active
